@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PhysioConnect - Perfil de paciente</title>
+    <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Agrega tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="paciente.css">
+    <link rel="shortcut icon" href="/img/imagen-principal.png" type="image/x-icon">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <!-- Agrega el nombre del paciente o un enlace a la página de inicio -->
+        <a class="navbar-brand" href="/intex.html">PhysioConnect</a>
+
+        <!-- Agrega la navegación principal -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="perfil-paciente.html">Perfil de Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cita.html">Programar Cita</a>
+            </li>
+            <!-- Agrega más enlaces a otras páginas que hayas creado -->
+            <li class="nav-item">
+                <a class="nav-link" href="perfil-terapeuta.html">Perfil Terapeuta</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<br>
+
+<body>
+
+    <div class="container">
+        <!-- Agrega el contenido del perfil de paciente -->
+        <div class="profile">
+            <div class="profile-header">
+                <!-- Agrega un elemento de imagen para mostrar la foto de perfil -->
+                <img id="profile-image" src="/img/imagen-de-muestra.png" alt="Foto de perfil">
+
+                <br>
+
+                <!-- Agrega un botón para abrir el diálogo de selección de archivo -->
+                <button id="choose-image-button">Seleccionar imagen</button>
+
+                <!-- Agrega un input oculto para manejar la selección de archivos -->
+                <input id="image-input" type="file" accept="image/*" style="display: none;">
+
+                <h1 class="text-center">Perfil de paciente</h1>
+
+
+            </div>
+            <div class="profile-body">
+                <h2>Información personal</h2>
+                <p id="nombre">Nombre: John Doe</p>
+                <p id="edad">Edad: 35 años</p>
+                <p id="genero">Género: Masculino</p>
+
+
+
+                <h2>Contacto</h2>
+                <p id="correo">Email: john@example.com</p>
+                <p id="telefono">Teléfono: +1 123-456-7890</p>
+
+                <h2>Historial médico</h2>
+                <p id="enfermedad">Enfermedades previas: Ninguna</p>
+                <p id="lesiones">Lesiones anteriores: Fractura de muñeca en 2018</p>
+
+
+                <h2>Seguimiento del progreso</h2>
+                <p id="peso">Peso actual: 80 kg</p>
+                <p id="altura">Altura: 175 cm</p>
+                <p id="objetivo">Objetivo: Recuperación completa de una lesión de rodilla</p>
+                <p id="fecha-inicio">Fecha de inicio: 1 de enero de 2023</p>
+                <p id="fecha-final">Fecha estimada de finalización: 1 de julio de 2023</p>
+
+                <h2>Recursos educativos que sigue</h2>
+                <ul>
+                    <li>Artículo: "Beneficios de la fisioterapia en lesiones deportivas"</li>
+                    <li>Video: "Ejercicios de estiramiento para fortalecer la espalda"</li>
+                </ul>
+
+                <br>
+
+                <div class="alinear-botones">
+                    <button class="btn btn-primary" id="edit-button">Editar</button>
+                    <button id="save-button" class="btn btn-success">Guardar cambios</button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Agrega tu archivo JavaScript personalizado -->
+    <script src="paciente.js"></script>
+</body>
+
+</html>

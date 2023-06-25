@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Perfil de Terapeuta</title>
+  <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="terapeuta.css">
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <!-- Agrega el nombre del paciente o un enlace a la página de inicio -->
+    <a class="navbar-brand" href="/intex.html">PhysioConnect</a>
+
+    <!-- Agrega la navegación principal -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="perfil-paciente.html">Perfil de Paciente</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cita.html">Programar Cita</a>
+      </li>
+      <!-- Agrega más enlaces a otras páginas que hayas creado -->
+      <li class="nav-item">
+        <a class="nav-link" href="perfil-terapeuta.html">Perfil Terapeuta</a>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
+<br>
+
+
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <div class="text-center">
+        <img class="profile-picture" src="/img/imagen-muestra-terapeuta.png" alt="Foto de perfil">
+        <h1 class="profile-name" id="nombre">Nombre del Terapeuta</h1>
+        <p class="profile-specialty" id="especialidad">Especialidad: Fisioterapia Deportiva</p>
+      </div>
+    </div>
+    <div class="profile-body">
+      <h2 >Contacto</h2>
+      <div class="profile-contact">
+        <p id="correo">Email: terapeuta@example.com</p>
+        <p id="telefono">Teléfono: +1 123-456-7890</p>
+      </div>
+      <h2>Descripción</h2>
+      <div class="profile-description">
+        <p id="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nunc non dui pharetra, sed elementum
+          lacus feugiat. Nulla scelerisque libero ut convallis lacinia. Etiam eu tellus fringilla, feugiat quam id,
+          sagittis ex. Sed at urna lobortis, maximus ligula ac, vestibulum mi.</p>
+      </div>
+      <h2>Experiencia</h2>
+      <ul>
+        <li id="clinica-experiencia">Clínica de fisioterapia XYZ - 5 años de experiencia</li>
+        <li  id="hospital">Hospital ABC - 3 años de experiencia</li>
+      </ul>
+    </div>
+    <div class="alinear-botones">
+      <a href="/"><button align="center" type="submit" class="btn btn-success">Editar</button></a>
+
+      <a href="/cita.html"><button align="center" type="submit" class="btn btn-success">Generar Cita</button></a>
+    </div>
+
+  </div>
+
+
+
+  <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+  }
+
+
+
+.container {
+  display: block;
+    max-width: 960px;
+    padding-top:20px ;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #007bff;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #fff;
+    font-size: 20px;
+   
+  }
+
+.profile-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .profile-body {
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .profile-specialty {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-contact {
+    margin-bottom: 20px;
+  }
+  
+  .profile-contact p {
+    margin-bottom: 5px;
+  }
+  
+  .profile-description {
+    margin-bottom: 20px;
+  }
+
+  .alinear-botones
+{
+    display: block;
+    margin-top: px;
+    text-align: center;
+  margin: 0 auto;
+}

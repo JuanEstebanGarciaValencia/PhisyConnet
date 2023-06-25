@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhysioConnect - Registro</title>
+  <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="registro.css">
+  <link rel="shortcut icon" href="/img/imagen-principal.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center">Registro</h1>
+    
+    <div id="registration-type">
+      <h2>Seleccione su condición:</h2>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary" onclick="showPatientForm()">Paciente</button>
+        <button type="button" class="btn btn-primary" onclick="showTherapistForm()">Terapeuta</button>
+      </div>
+    </div>
+    
+    <div id="patient-form" style="display: none;">
+      <h2>Registro de Paciente</h2>
+      <form>
+        <div class="form-group">
+          <label for="patient-name">Nombre:</label>
+          <input type="text" class="form-control" id="patient-name">
+        </div>
+        <div class="form-group">
+          <label for="patient-email">Email:</label>
+          <input type="email" class="form-control" id="patient-email">
+        </div>
+        <div class="form-group">
+          <label for="patient-password">Contraseña:</label>
+          <input type="password" class="form-control" id="patient-password">
+        </div>
+        <!-- Agrega más campos de formulario específicos para pacientes -->
+        ...
+        <button type="submit" class="btn btn-primary">Registrarse como Paciente</button>
+      </form>
+    </div>
+    
+    <div id="therapist-form" style="display: none;">
+      <h2>Registro de Terapeuta</h2>
+      <form>
+        <div class="form-group">
+          <label for="therapist-name">Nombre:</label>
+          <input type="text" class="form-control" id="therapist-name">
+        </div>
+        <div class="form-group">
+          <label for="therapist-email">Email:</label>
+          <input type="email" class="form-control" id="therapist-email">
+        </div>
+        <div class="form-group">
+          <label for="therapist-password">Contraseña:</label>
+          <input type="password" class="form-control" id="therapist-password">
+        </div>
+        <!-- Agrega más campos de formulario específicos para terapeutas -->
+        ...
+        <button type="submit" class="btn btn-primary">Registrarse como Terapeuta</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="registro.js"></script>
+</body>
+</html>
